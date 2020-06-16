@@ -1,8 +1,8 @@
-    this is from developer 2
+    ##this is from developer 2
     agent any
     stages {
-        stage('Example') {
-           steps { bat "exit 2" }
+        stage('Example 1') {
+           steps { bat "exit 1" }
         }
     }
     post { 
